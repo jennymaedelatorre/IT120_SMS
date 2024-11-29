@@ -1,0 +1,73 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+*.env/
+
+# Ignore .env file where sensitive credentials are stored
+.env
+
+# Ignore database files (e.g., SQLite)# Ignore Python bytecode files
+*.py[cod]
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+*.env/
+
+# Ignore .env file where sensitive credentials are stored
+.env
+
+# Ignore database files (e.g., SQLite)
+db.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore migration files (optional, depending on your team setup)
+migrations/
+
+# Ignore Django specific files
+*.pot
+*.bak
+
+# Ignore other IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore other miscellaneous files
+*.tmp
+*.bak
+*.
+# Ignore log files
+*.log
+
+# Ignore migration files (optional, depending on your team setup)
+migrations/
+
+# Ignore Django specific files
+*.pot
+*.pyc
+*.bak
+
+# Ignore other IDE/editor-specific files
+.vscode/
+.idea/
+
+# Ignore any other personal files you might create
+*.swp
