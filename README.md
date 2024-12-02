@@ -2,6 +2,7 @@
 
 Django SMS Feedback System
 
+
 *Overview
 The Django SMS Feedback System is a web-based application designed to collect feedback from event attendees through a user-friendly feedback form. Feedback is sent directly via SMS to a designated recipient using Twilio's messaging service. This system helps event organizers receive immediate feedback, assess attendee satisfaction, and improve future events.
 
