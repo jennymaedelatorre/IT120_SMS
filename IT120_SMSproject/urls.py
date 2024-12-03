@@ -16,12 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from dashboard import views  # Ensure this is correct
+from dashboard import views 
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.welcome_view, name='welcome'),  # Welcome page
-    path('feedback/', views.feedback_view, name='feedback'),  # Feedback form
-    path('thank-you/', views.thank_you_view, name='thank_you'),  # Thank you page
+    path('', views.welcome_view, name='welcome'), 
+    path('feedback/', views.feedback_view, name='feedback'),  
+    path('thank-you/', views.thank_you_view, name='thank_you'), 
 ]
